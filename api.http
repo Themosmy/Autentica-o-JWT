@@ -1,0 +1,9 @@
+GET https://localhost:3333/
+
+###
+GET http://localhost:3333/login
+authorization: Basic caiomosmy@example.com:123456
+
+###
+GET http://localhost:3333/private
+Authorization:Authorization: Bearer 123456
